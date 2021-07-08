@@ -1,0 +1,327 @@
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.button-box{
+  height: 27px;
+  width: 50px;
+  border: 2px solid #CDF0EA;
+
+  border-radius: 0.8rem;
+
+
+}
+.dark-button-box{
+  height: 27px;
+  width: 50px;
+  border: 2px solid gray;
+
+  border-radius: 0.8rem;
+}
+.hell{
+  /* border: 2px solid red; */
+  z-index:200;
+  position: absolute;
+  top:79px;
+  left:745px;
+}
+.rounded-div{
+  height: 23px;
+  width: 50%;
+  background-color:white;
+  border-radius: 0.8rem;
+  margin-left: 0px;
+  transition: margin 0.5s;
+}
+.dark-rounded-div{
+    height: 23px;
+    width: 50%;
+    background-color: white;
+    border-radius: 0.8rem;
+    margin-left: 60%;
+    transition: margin 0.5s;
+  }
+.main-div{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content:center;
+width: 100vw;
+box-sizing: border-box;
+ height: 100vh;  
+background-color:white; 
+
+
+}
+.dark-main-div{
+  display: flex;
+flex-direction: column;
+align-items: center;
+justify-content:center;
+width: 100vw;
+box-sizing: border-box;
+ height: 100vh;  
+  background-color: #323432;
+}
+.mode{
+  margin-top: 3px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.sun-color{
+  color:#FFC947;
+}
+.moon-color{
+  color:#EDEDED;
+}
+.heading-text{
+  text-align: center;
+  color:black;
+  font-weight: 700px;
+  font-size: 18px;
+}
+.dark-heading-text{
+  text-align: center;
+  font-weight: 700px;
+  font-size: 18px;
+  color:#EDEDED
+}
+.inner{
+  height: 450px;
+  width: 330px;
+  border-radius: 10px;
+  margin-top: 10px;
+   background-image: url("../src/images/clouds12.jpg"); 
+   background-position: center;
+   
+}
+.dark-inner{
+  height: 450px;
+  width: 330px;
+  border-radius: 10px;
+  margin-top: 10px;
+  background-image: url("../src/images/clouds4.jpg"); 
+  background-position: center;
+   
+}
+span{
+  color:white;
+  margin-left: 1px;
+}
+span:hover{
+  color:orange;
+}
+.search-box-div{
+ width: 100%;
+ margin: auto;
+ padding: 0;
+ margin-top: 20px;
+ position: relative;
+ 
+}
+
+button{
+  width: 50px;
+  background-color: lawngreen;
+  border-radius:10px;
+  height: 20px;
+  
+}
+.input-box{
+  height: 30px;
+  padding: 10px;
+  border: none;
+  outline: 0;
+}
+.input-box{
+  border-bottom-left-radius: 50px;
+  border-top-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  border-top-right-radius: 50px;
+  margin-left: 74px;
+
+}
+.search-icon{
+  position: absolute;
+  left:230px;
+  top: 7px;
+}
+.temp{
+  margin-top: 20px;
+  /* border: 2px solid red;  */
+  display: flex;
+  flex-direction: row;
+   justify-content: center; 
+}
+.temp .actual-temp:hover{
+  color:orange;
+}
+.range{
+  border: 2px solid yellow;
+}
+
+.actual-temp{
+  font-weight: 600;
+  text-align: center;
+  font-size:16px;
+  color:white;
+
+
+}
+.dark-actual-temp{
+  font-weight: 600;
+  text-align: center;
+  font-size:16px;
+  color:black;
+
+
+}
+.dark-t{
+  color: black;
+}
+.dark-sp{
+  color:black;
+  font-weight: 600;
+}
+/* .actual-temp:hover{
+  color:orange;
+} */
+.boom{
+  margin-left: 2px;
+}
+.welcome-text h3{
+  text-align: center;
+  margin-top: 40%;
+  color:white;
+}
+.celcius{
+  height:8px;
+  width:8px;
+  border:2px solid white;
+  border-radius: 50%;
+  margin-left: 6px;
+}
+.dark-celcius{
+  height:8px;
+  width:8px;
+  border:2px solid black;
+  border-radius: 50%;
+  margin-left: 6px;
+}
+.celcius:hover{
+  border-color: orange;
+}
+.rain{
+  margin-left:4px;
+}
+.dark-rain{
+  margin-left: 4px;
+  color:white;
+
+}
+.rain:hover{
+  color:#FB9300;
+}
+.moon{
+  color:#EDEDED;
+}
+.dark-moon{
+  color:white
+}
+.entry{
+  text-align: center;
+  font-size: 80px;
+  margin-top: 30px;
+}
+.moon:hover{
+  color:#FFF5EB;
+}
+.entry-city{
+  text-align: center;
+  color: #EDEDED;
+  font-weight: 500;
+}
+.dark-entry-city{
+  text-align: center;
+  color: black;
+  font-weight: 500;
+}
+.entry-div{
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+.entry-celcius{
+  height: 13px;
+  width: 13px;
+  border: 4px solid #EDEDED;
+  border-radius: 50%;
+  margin-left: 6px;
+}
+.dark-entry-celcius{
+  height: 13px;
+  width: 13px;
+  border: 4px solid black;
+  border-radius: 50%;
+  margin-left: 6px;
+}
+.main-city{
+  text-align: center;
+  color: #EDEDED;
+  margin-top: 10px;
+  font-weight: 500;
+  font-size: 50px;
+}
+.dark-main-city{
+  text-align: center;
+  color: black;
+  margin-top: 10px;
+  font-weight: 500;
+  font-size: 50px;
+}
+.intro{
+  color: #EDEDED;
+  text-align: center;
+  letter-spacing: 1.8px;
+  margin-top: 30px;
+  font-weight: 500;
+}
+.dark-intro{
+  color: black;
+  text-align: center;
+  letter-spacing: 1.8px;
+  margin-top: 30px;
+  font-weight: 500;
+}
+.da{
+  margin-top: 20px;
+  color:#EDEDED;
+  text-align: center;
+  font-weight: 500;
+}
+.dark-da{
+  margin-top: 20px;
+  color:black;
+  text-align: center;
+  font-weight: 500;
+}
+/* .error{
+  color:red
+} */
